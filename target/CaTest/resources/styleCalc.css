@@ -1,0 +1,132 @@
+		body {
+			background-color: #cad6da;
+			font-family: Arial, sans-serif;
+		}
+
+		button, 
+		button:active, 
+		button:focus {
+		    outline: none;
+		}
+
+
+		.calculator {
+		    width: 250px;
+		    height: 400px;
+		    margin: 100px auto 0;
+		    text-align: center;
+		    background-color: white;
+		}
+
+		.calculator__form {
+		    height: 100%;
+		    padding: 20px;
+		}
+
+		.calculator__row {
+		    margin: 10px 0;
+		    display: flex;
+		    justify-content: space-between;
+		}
+
+		.calculator__display {
+		    margin: 0 0 20px;
+		    width: 100%;
+		    padding: 9px 2px;
+		    text-align: right;
+		    background-color: #a2a2a2;
+			font: 500 25px Arial;
+			color: white;
+		}
+
+
+		.calculator__key__gray {
+		    width: 41px;
+		    height: 35px;
+    		border: 2px solid #a2a2a2;
+    		background-color: white;
+		}
+
+		.calculator__key__yellow {
+		    width: 41px;
+		    height: 35px;
+    		border: 2px solid #ffeb3b;
+    		background-color: white;
+		}
+
+		.calculator__key__green {
+		    width: 41px;
+		    height: 35px;
+    		border: 2px solid #2edc20;
+    		background-color: white;
+		}
+
+
+		.calculator__color__gray {
+		    width: 41px;
+		    height: 35px;
+			border: none;
+    		background-color: #a2a2a2;
+		}
+
+		.calculator__color__yellow {
+		    width: 41px;
+		    height: 35px;
+			border: none;
+    		background-color: #ffeb3b;
+		}
+
+		.calculator__color__green {
+		    width: 41px;
+		    height: 35px;
+			border: none;
+    		background-color: #2edc20;
+		}
+
+		.calculator__key--equal {
+		    width: 98px;
+		}
+
+		::-webkit-input-placeholder {color:white;
+
+		}
+
+		.text__gray { 
+			color: #a2a2a2;
+    	}
+
+		.text__yellow { 
+			color: #ffeb3b;
+    	}
+
+		.text__green { 
+			color: #2edc20;
+    	}
+
+    	.flag__1 {
+		    width: 41px;
+		    height: 15px;
+			border: none;
+    		background-color: white;
+		}
+
+		.flag__2 {
+		    width: 41px;
+		    height: 15px;
+			border: none;
+    		background-color: white;
+		}
+
+		.flag__3 {
+		    width: 41px;
+		    height: 15px;
+			border: none;
+    		background-color: #a2a2a2;
+		}
+
+		.flag__4 {
+		    width: 41px;
+		    height: 15px;
+			border: none;
+    		background-color: white;
+		}
